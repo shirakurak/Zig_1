@@ -1,2 +1,7 @@
 # Zig_1
-はじめてのZig
+
+## hello-world
+
+samples to get started
+
+## zig-cmd
