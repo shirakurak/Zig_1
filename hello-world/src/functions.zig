@@ -1,3 +1,5 @@
+const expect = @import("std").testing.expect;
+
 fn addFive(x: u32) u32 {
     return x + 5;
 }
