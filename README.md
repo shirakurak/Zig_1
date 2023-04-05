@@ -29,10 +29,7 @@ zig run stack-machine/main.zig
 Hello, World!
 ```
 
-参考
-
-- https://ziglang.org/ja/learn/getting-started/
-
+- [参考](https://ziglang.org/ja/learn/getting-started/)
 
 Visual Studio Codeの拡張機能
 
