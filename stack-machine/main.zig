@@ -5,8 +5,9 @@ var stackTop: usize = 0;
 
 pub fn main() void {
     std.debug.print("Hello, {s}!\n", .{"World"});
-    pop();
     push(10);
+    var val1 = pop();
+    std.debug.print("val1 = {}\n", .{val1});
 }
 
 fn push(val: u8) void {
@@ -18,6 +19,13 @@ fn push(val: u8) void {
     }
 }
 
-fn pop() void {
-    std.debug.print("pop function called\n", .{});
+fn pop() u8 {
+    var val: u8 = 0;
+    if (stackTop > 0) {
+        stackTop -= 1;
+        val = stack[stackTop];
+    } else {
+        std.debug.print("stack overflow\\n", .{});
+    }
+    return val;
 }
