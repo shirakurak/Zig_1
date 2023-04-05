@@ -1,9 +1,6 @@
 # Zig_1
 
-インストール
-
-- macOS
-- パッケージマネージャ
+## Install from Homebrew
 
 ```sh
 brew install zig
@@ -14,7 +11,7 @@ zig version
 0.10.1
 ```
 
-以下のようなファイルを作成する：
+## Hello, World
 
 ```zig
 const std = @import("std");
@@ -25,13 +22,13 @@ pub fn main() void {
 ```
 
 ```sh
-zig run stack-machine/main.zig
+zig run main.zig
 Hello, World!
 ```
 
-- [参考](https://ziglang.org/ja/learn/getting-started/)
+- [cf.](https://ziglang.org/ja/learn/getting-started/)
 
-Visual Studio Codeの拡張機能
+Extension for Visual Studio Code
 
 - [Zig Language](https://marketplace.visualstudio.com/items?itemName=ziglang.vscode-zig)
 
@@ -39,10 +36,10 @@ Visual Studio Codeの拡張機能
 
 ## hello-world
 
-samples to get started
+samples to get started.
 
 ## zig-cmd
 
 ## stack-machine
 
-`push`と`pop`を実装する。
+`push` and `pop`.
