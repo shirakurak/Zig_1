@@ -29,3 +29,10 @@ fn pop() u8 {
     }
     return val;
 }
+
+// processing
+fn add() void {
+    var val1 = pop();
+    var val2 = pop();
+    push(val1 + val2);
+}
